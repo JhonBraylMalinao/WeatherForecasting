@@ -6,7 +6,7 @@ using System.Runtime.Intrinsics.X86;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-
+ 
 namespace WeatherForecastingProject
 {
     public class Place

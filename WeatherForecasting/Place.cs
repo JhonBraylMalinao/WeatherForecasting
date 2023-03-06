@@ -20,5 +20,10 @@ namespace WeatherForecasting
             this.Latitude = Latitude;
             this.Longtitude = Longtitude;
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + "\nCity: " + Name.ToString() + "\nRegion: " + Region.ToString() + "\nLatitude: " + Latitude.ToString() + "\nLongtitude: " + Longtitude.ToString();
+        }
     }
 }

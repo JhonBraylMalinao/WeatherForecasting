@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace WeatherForecasting
-{
-     enum WeatherCondition
+    enum WeatherCondition
     {
         Sunny, Rainy, Windy, Stormy, Cloudy
     }
