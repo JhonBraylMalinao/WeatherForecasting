@@ -8,10 +8,10 @@ namespace WeatherForecasting
 {
     public class Place 
     {
-        public string Name { get; private set; }
-        public string Region { get; private set; }
-        public int Latitude { get; private set; }
-        public int Longtitude { get; private set; }
+        public string Name { get; set; }
+        public string Region { get; set; }
+        public int Latitude { get; set; }
+        public int Longtitude { get; set; }
 
         public Place(string Name, string Region, int Latitude, int Longtitude)
         {
