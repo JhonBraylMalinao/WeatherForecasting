@@ -6,20 +6,27 @@ using System.Threading.Tasks;
 
 namespace WeatherForecasting
 {
-    public class Wind
+    public class Wind : WeatherDetail
     {
-        int windSpeed;
+        int WindSpeed;
         string windDirection;
-
-        public Wind(int windSpeed, string windDirection)
+      
+       public Wind(int WindSpeed, string windDirection)
         {
-            this.windSpeed = windSpeed;
+            this.WindSpeed = WindSpeed;
             this.windDirection = windDirection;
+        }
+
+        public static void showWindProperties(int WindSpeed, string WindDirection)
+        {
+            WindSpeed = WindSpeed;
+            WindDirection = WindDirection;
+ 
         }
 
         public override string ToString()
         {
-            return base.ToString() + "\nWindSpeed: " + windSpeed.ToString() + "\nWind Direction: " + windDirection.ToString();
+            return base.ToString() + "\nWindSpeed: " +WindSpeed.ToString() + "\nWind Direction: " + windDirection.ToString();
         }
 
     }
